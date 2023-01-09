@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* jFgS8tteGD425f4oZfygQVaVnD6gt6GucN2yyz3xFek */
+
 html {
   box-sizing: border-box;
 }
@@ -17,14 +20,13 @@ h1 {
   letter-spacing: 5px;
 }
 
-/*Loader*/
-
+/* Loader */
 .loader {
   position: fixed;
   top: 0;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
   background: rgba(255, 255, 255, 0.8);
 }
 
@@ -37,7 +39,7 @@ h1 {
 
 /* Image Container */
 .image-container {
-  margin: 10px 30½;
+  margin: 10px 30%;
 }
 
 .image-container img {
@@ -52,6 +54,6 @@ h1 {
   }
 
   .image-container {
-    margin: 10px;
+    margin: 10px; 
   }
 }
